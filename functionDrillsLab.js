@@ -352,7 +352,7 @@ upperString(sampleString);
   return 'must provide a valid email address'
 */
 function emailCheck(email) {
-  email = String(email).trim()
+  email = String(email).trim();
   if (email.includes('@')) {
     console.log('email verified')
   } else {
@@ -360,8 +360,8 @@ function emailCheck(email) {
   }
 }
 
-console.log(`\nProblem 18:`)
-emailCheck('daquan$hotmail.com')
+console.log(`\nProblem 18:`);
+emailCheck('daquan$hotmail.com');
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
@@ -371,9 +371,9 @@ emailCheck('daquan$hotmail.com')
 
 //CODE HERE
 function chocolateFrogs(gold) {
-  let cost = 3
-  let frogs = gold / 3
-  return frogs
+  let cost = 3;
+  let frogs = gold / cost;
+  return frogs;
 }
 
 console.log(`\nProblem 19:`)

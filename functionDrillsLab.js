@@ -333,12 +333,12 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 function upperString(s) {
-  s = s.toUpperCase()
-  console.log(s)
+  s = s.toUpperCase();
+  console.log(s);
 }
 
 console.log(`\nProblem 17:`)
-let answer17 = upperString(sampleString)
+upperString(sampleString);
 
 
 ////////////////// PROBLEM 18 ////////////////////
